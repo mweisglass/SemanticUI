@@ -105,7 +105,7 @@ class BlurEffectsController: UIViewController, UITableViewDelegate, UITableViewD
         
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.pinToSuperviewLayoutMargins()
+        tableView.pinToSuperviewEdges()
     }
     
 
